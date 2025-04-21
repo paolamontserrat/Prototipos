@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Equipos y Escuelas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilosEditarAdmin.css">
+</head>
+<body>
+    <header>
+        <img src="../img/banner.jpg" class="imagenHeader" alt="Banner">
+        <div>
+            Usuarios
+        </div>
+        <nav>
+            <ul>
+                <li><a href="vistaAdministrador.html">Inicio</a></li>
+                <li><a href="../Usuario/Usuario.html"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="botones">
+        <button id="btnAgregar"><i class="fa-solid fa-plus"></i> Agregar</button>
+        <button><i class="fa-solid fa-trash"></i> Eliminar</button>
+    </div>
+    <div class="seccion">
+        <div class="centrar">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Participante</th>
+                        <th>Nombre del Equipo</th>
+                        <th>Institución</th>
+                        <th>Contraseña</th>
+                        <th>Tipo Usuario</th>
+                        <th>Credenciales</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-participantes">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <div class="pie-pagina">
+            <p>Síguenos en nuestras redes sociales</p>
+            <a href="https://www.facebook.com/CodingCupITSUR" target="_blank">
+                <img src="../img/Facebook.png" alt="Facebook" width="40">
+            </a>
+            <p>2025 TecNM Campus Sur de Guanajuato | Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="editarAdministrador.js"></script>
+    <script src="../Info/Informacion.js"></script>
+</body>
+</html>

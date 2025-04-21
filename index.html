@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<header>
+    <img src="img/banner.jpg" class="imagenHeader" alt="Banner">
+    <div id="title">Inicio<br><div id="subtitle">TriCode</div></div>
+</header>
+    <form action="" class="contenedor col-6">
+        <div id="Inicio">
+            <div>
+                <label for="txtNombre">Usuario</label>
+                <div class="input-icon">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="txtNombre" name="txtNombre" required maxlength="30" minlength="3" autofocus>
+                    <i class="fa-solid fa-check status-icon valid-icon"></i>
+                    <i class="fa-solid fa-xmark status-icon invalid-icon"></i>
+                </div>
+            </div>
+            <div>
+                <label for="txtPassword">Contraseña:</label>
+                <div class="input-icon">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="txtPassword" name="txtPassword" required minlength="8" maxlength="20">
+                    <i class="fa-solid fa-check status-icon valid-icon"></i>
+                    <i class="fa-solid fa-xmark status-icon invalid-icon"></i>
+                </div>
+            </div>
+                <button type="submit">
+                    <i class="fa-solid fa-check"></i> Ingresar
+                </button>
+            </div>
+
+    </form>
+<script src="inicio.js"></script>
+</body>
+</html>
